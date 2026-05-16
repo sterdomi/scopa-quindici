@@ -1,0 +1,46 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=800">
+    <meta http-equiv="Cache-Control" content="public" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Gioca a Scopa online">
+    <meta name="keywords" content="scopa, quindici, webapp, gioco di carte, trevisane, napoletane">
+    <title>Scopa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<script>
+    window.onload = function () {
+        EntryPoint.onIndexLoad();
+    };
+</script>
+
+<h1 id="title">scopa-quindici.com</h1>
+<form id="form" action="/trevisane.html" method="get">
+    <select id="selectGame" name="game" onchange="EntryPoint.onGameClick(this.value)" class="select-css" size="2">
+        <option value="escopa">Scopa Quindici</option>
+        <option value="scopa">Scopa</option>
+      </select>
+     <select id="selectCard" name="card" onchange="EntryPoint.onCardClick(this.value)" class="select-css" size="2">
+        <option value="trevisane">Trevisane</option>
+        <option value="napoletane">Napoletane</option>
+     </select>
+    <select id="selectLanguage" name="lang" onchange="EntryPoint.onLanguageClick(this.value)" class="select-css" name="Sprache" size="3">
+        <option value="it">Italiano</option>
+        <option value="en">English</option>
+        <option value="de">Deutsch</option>
+    </select>
+    <select id="selectDifficulty" name="difficulty" onchange="EntryPoint.onDifficultyClick(this.value)" class="select-css" size="3">
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="hard" selected>Hard</option>
+    </select>
+     <input type="text" id="nickname" name="nickname" class="input-text-css" placeholder="nickname...(max 8)" pattern="[0-9_A-Za-z]{0,8}" onchange="EntryPoint.onNicknameClick(this.value)">
+    <p>
+        <button type="button" id="infoGame" onclick="EntryPoint.onInfoButtonClick(this.value)">Info</button>
+        <button type="submit" id="loadGame">Load Game</button>
+    </p>
+</form>
+<script type="text/javascript" src="app.bundle.js?51e429c4f7fe973b2e69"></script></body>
+</html>

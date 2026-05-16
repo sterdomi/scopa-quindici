@@ -1,0 +1,5 @@
+song: https://freepd.com/misc.php
+ring: https://freesound.org/people/YourFriendJesse/sounds/235911/
+bomb: https://freesound.org/people/waveplay/sounds/187502/
+scopa: myself
+slap: myself

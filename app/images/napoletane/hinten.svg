@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1198" viewBox="0 0 720 1198">
+  <defs>
+    <pattern id="cross-hatch" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="12" x2="24" y2="12" stroke="#c8960c" stroke-width="1" opacity="0.22"/>
+      <line x1="12" y1="0" x2="12" y2="24" stroke="#c8960c" stroke-width="1" opacity="0.22"/>
+    </pattern>
+    <pattern id="floral-tile" x="0" y="0" width="48" height="48" patternUnits="userSpaceOnUse">
+      <circle cx="24" cy="24" r="1.5" fill="#c8960c" opacity="0.28"/>
+      <circle cx="0" cy="0" r="1.5" fill="#c8960c" opacity="0.28"/>
+      <circle cx="48" cy="0" r="1.5" fill="#c8960c" opacity="0.28"/>
+      <circle cx="0" cy="48" r="1.5" fill="#c8960c" opacity="0.28"/>
+      <circle cx="48" cy="48" r="1.5" fill="#c8960c" opacity="0.28"/>
+      <path d="M24 10 Q27 17 24 24 Q21 17 24 10" fill="#c8960c" opacity="0.12"/>
+      <path d="M24 38 Q27 31 24 24 Q21 31 24 38" fill="#c8960c" opacity="0.12"/>
+      <path d="M10 24 Q17 27 24 24 Q17 21 10 24" fill="#c8960c" opacity="0.12"/>
+      <path d="M38 24 Q31 27 24 24 Q31 21 38 24" fill="#c8960c" opacity="0.12"/>
+    </pattern>
+  </defs>
+
+  <rect width="720" height="1198" rx="20" fill="#555555"/>
+  <rect width="720" height="1198" rx="20" fill="url(#cross-hatch)"/>
+  <rect width="720" height="1198" rx="20" fill="url(#floral-tile)"/>
+
+  <rect x="14" y="14" width="692" height="1170" rx="14" fill="none" stroke="#c8960c" stroke-width="4"/>
+  <rect x="22" y="22" width="676" height="1154" rx="11" fill="none" stroke="#c8960c" stroke-width="1" opacity="0.5"/>
+  <rect x="30" y="30" width="660" height="1138" rx="8" fill="none" stroke="#c8960c" stroke-width="2" opacity="0.65"/>
+
+  <!-- Top banner -->
+  <rect x="240" y="116" width="240" height="26" rx="4" fill="#4a4a4a" stroke="#c8960c" stroke-width="1.8"/>
+  <text x="360" y="134" text-anchor="middle" font-family="serif" font-size="13" fill="#c8960c" font-style="italic">&#9830; Napoletane &#9830;</text>
+
+  <!-- Bottom banner -->
+  <rect x="240" y="1056" width="240" height="26" rx="4" fill="#4a4a4a" stroke="#c8960c" stroke-width="1.8"/>
+  <text x="360" y="1074" text-anchor="middle" font-family="serif" font-size="13" fill="#c8960c" font-style="italic">&#9830; Napoletane &#9830;</text>
+
+  <!-- Corner flourish top left -->
+  <g transform="translate(62,62)" stroke="#c8960c" fill="none">
+    <path d="M0,0 Q18,-18 36,0 Q18,18 0,0 Z" fill="#c8960c" opacity="0.28"/>
+    <path d="M0,0 Q-18,18 0,36 Q18,18 0,0 Z" fill="#c8960c" opacity="0.28"/>
+    <circle cx="0" cy="0" r="5" fill="#c8960c" opacity="0.7"/>
+    <path d="M10,10 Q26,0 36,16" stroke-width="1.6" opacity="0.5"/>
+    <path d="M10,10 Q0,26 16,36" stroke-width="1.6" opacity="0.5"/>
+  </g>
+  <!-- Corner flourish top right -->
+  <g transform="translate(658,62) scale(-1,1)" stroke="#c8960c" fill="none">
+    <path d="M0,0 Q18,-18 36,0 Q18,18 0,0 Z" fill="#c8960c" opacity="0.28"/>
+    <path d="M0,0 Q-18,18 0,36 Q18,18 0,0 Z" fill="#c8960c" opacity="0.28"/>
+    <circle cx="0" cy="0" r="5" fill="#c8960c" opacity="0.7"/>
+    <path d="M10,10 Q26,0 36,16" stroke-width="1.6" opacity="0.5"/>
+    <path d="M10,10 Q0,26 16,36" stroke-width="1.6" opacity="0.5"/>
+  </g>
+  <!-- Corner flourish bottom left -->
+  <g transform="translate(62,1136) scale(1,-1)" stroke="#c8960c" fill="none">
+    <path d="M0,0 Q18,-18 36,0 Q18,18 0,0 Z" fill="#c8960c" opacity="0.28"/>
+    <path d="M0,0 Q-18,18 0,36 Q18,18 0,0 Z" fill="#c8960c" opacity="0.28"/>
+    <circle cx="0" cy="0" r="5" fill="#c8960c" opacity="0.7"/>
+    <path d="M10,10 Q26,0 36,16" stroke-width="1.6" opacity="0.5"/>
+    <path d="M10,10 Q0,26 16,36" stroke-width="1.6" opacity="0.5"/>
+  </g>
+  <!-- Corner flourish bottom right -->
+  <g transform="translate(658,1136) scale(-1,-1)" stroke="#c8960c" fill="none">
+    <path d="M0,0 Q18,-18 36,0 Q18,18 0,0 Z" fill="#c8960c" opacity="0.28"/>
+    <path d="M0,0 Q-18,18 0,36 Q18,18 0,0 Z" fill="#c8960c" opacity="0.28"/>
+    <circle cx="0" cy="0" r="5" fill="#c8960c" opacity="0.7"/>
+    <path d="M10,10 Q26,0 36,16" stroke-width="1.6" opacity="0.5"/>
+    <path d="M10,10 Q0,26 16,36" stroke-width="1.6" opacity="0.5"/>
+  </g>
+
+  <!-- Hexagonal medallion top -->
+  <polygon points="360,280 468,342 468,534 360,596 252,534 252,342" fill="#484848" stroke="#c8960c" stroke-width="3"/>
+  <polygon points="360,294 456,352 456,524 360,582 264,524 264,352" fill="none" stroke="#c8960c" stroke-width="1.2" opacity="0.5"/>
+
+  <!-- Floral center top -->
+  <g transform="translate(360,438)">
+    <ellipse cx="0" cy="-36" rx="11" ry="22" fill="#c8960c" opacity="0.2" transform="rotate(0)"/>
+    <ellipse cx="0" cy="-36" rx="11" ry="22" fill="#c8960c" opacity="0.2" transform="rotate(60)"/>
+    <ellipse cx="0" cy="-36" rx="11" ry="22" fill="#c8960c" opacity="0.2" transform="rotate(120)"/>
+    <ellipse cx="0" cy="-36" rx="11" ry="22" fill="#c8960c" opacity="0.2" transform="rotate(180)"/>
+    <ellipse cx="0" cy="-36" rx="11" ry="22" fill="#c8960c" opacity="0.2" transform="rotate(240)"/>
+    <ellipse cx="0" cy="-36" rx="11" ry="22" fill="#c8960c" opacity="0.2" transform="rotate(300)"/>
+    <ellipse cx="0" cy="-22" rx="6" ry="13" fill="#c8960c" opacity="0.35" transform="rotate(30)"/>
+    <ellipse cx="0" cy="-22" rx="6" ry="13" fill="#c8960c" opacity="0.35" transform="rotate(90)"/>
+    <ellipse cx="0" cy="-22" rx="6" ry="13" fill="#c8960c" opacity="0.35" transform="rotate(150)"/>
+    <ellipse cx="0" cy="-22" rx="6" ry="13" fill="#c8960c" opacity="0.35" transform="rotate(210)"/>
+    <ellipse cx="0" cy="-22" rx="6" ry="13" fill="#c8960c" opacity="0.35" transform="rotate(270)"/>
+    <ellipse cx="0" cy="-22" rx="6" ry="13" fill="#c8960c" opacity="0.35" transform="rotate(330)"/>
+    <circle cx="0" cy="0" r="18" fill="#555555" stroke="#c8960c" stroke-width="2.4"/>
+    <circle cx="0" cy="0" r="10" fill="#c8960c" opacity="0.65"/>
+    <circle cx="0" cy="0" r="4" fill="#555555"/>
+  </g>
+
+  <!-- Middle divider -->
+  <line x1="62" y1="599" x2="658" y2="599" stroke="#c8960c" stroke-width="1.4" opacity="0.3"/>
+
+  <!-- Hexagonal medallion bottom -->
+  <polygon points="360,602 468,664 468,856 360,918 252,856 252,664" fill="#484848" stroke="#c8960c" stroke-width="3"/>
+  <polygon points="360,616 456,674 456,846 360,906 264,846 264,674" fill="none" stroke="#c8960c" stroke-width="1.2" opacity="0.5"/>
+
+  <!-- Floral center bottom -->
+  <g transform="translate(360,760)">
+    <ellipse cx="0" cy="-36" rx="11" ry="22" fill="#c8960c" opacity="0.2" transform="rotate(0)"/>
+    <ellipse cx="0" cy="-36" rx="11" ry="22" fill="#c8960c" opacity="0.2" transform="rotate(60)"/>
+    <ellipse cx="0" cy="-36" rx="11" ry="22" fill="#c8960c" opacity="0.2" transform="rotate(120)"/>
+    <ellipse cx="0" cy="-36" rx="11" ry="22" fill="#c8960c" opacity="0.2" transform="rotate(180)"/>
+    <ellipse cx="0" cy="-36" rx="11" ry="22" fill="#c8960c" opacity="0.2" transform="rotate(240)"/>
+    <ellipse cx="0" cy="-36" rx="11" ry="22" fill="#c8960c" opacity="0.2" transform="rotate(300)"/>
+    <ellipse cx="0" cy="-22" rx="6" ry="13" fill="#c8960c" opacity="0.35" transform="rotate(30)"/>
+    <ellipse cx="0" cy="-22" rx="6" ry="13" fill="#c8960c" opacity="0.35" transform="rotate(90)"/>
+    <ellipse cx="0" cy="-22" rx="6" ry="13" fill="#c8960c" opacity="0.35" transform="rotate(150)"/>
+    <ellipse cx="0" cy="-22" rx="6" ry="13" fill="#c8960c" opacity="0.35" transform="rotate(210)"/>
+    <ellipse cx="0" cy="-22" rx="6" ry="13" fill="#c8960c" opacity="0.35" transform="rotate(270)"/>
+    <ellipse cx="0" cy="-22" rx="6" ry="13" fill="#c8960c" opacity="0.35" transform="rotate(330)"/>
+    <circle cx="0" cy="0" r="18" fill="#555555" stroke="#c8960c" stroke-width="2.4"/>
+    <circle cx="0" cy="0" r="10" fill="#c8960c" opacity="0.65"/>
+    <circle cx="0" cy="0" r="4" fill="#555555"/>
+  </g>
+
+  <!-- Side scrollwork top section -->
+  <g stroke="#c8960c" fill="none" stroke-width="1.6" opacity="0.38">
+    <path d="M62,380 Q82,400 62,420 Q82,440 62,460"/>
+    <path d="M74,380 Q94,400 74,420 Q94,440 74,460"/>
+    <path d="M658,380 Q638,400 658,420 Q638,440 658,460"/>
+    <path d="M646,380 Q626,400 646,420 Q626,440 646,460"/>
+  </g>
+  <!-- Side scrollwork bottom section -->
+  <g stroke="#c8960c" fill="none" stroke-width="1.6" opacity="0.38">
+    <path d="M62,700 Q82,720 62,740 Q82,760 62,780"/>
+    <path d="M74,700 Q94,720 74,740 Q94,760 74,780"/>
+    <path d="M658,700 Q638,720 658,740 Q638,760 658,780"/>
+    <path d="M646,700 Q626,720 646,740 Q626,760 646,780"/>
+  </g>
+  <g fill="#c8960c" opacity="0.45">
+    <circle cx="62" cy="380" r="3"/>
+    <circle cx="62" cy="460" r="3"/>
+    <circle cx="658" cy="380" r="3"/>
+    <circle cx="658" cy="460" r="3"/>
+    <circle cx="62" cy="700" r="3"/>
+    <circle cx="62" cy="780" r="3"/>
+    <circle cx="658" cy="700" r="3"/>
+    <circle cx="658" cy="780" r="3"/>
+  </g>
+</svg>

@@ -1,0 +1,45 @@
+{
+  "name": "scopa-quindici",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "connect": "^3.7.0",
+    "jest-canvas-mock": "^2.3.1",
+    "serve-static": "^1.14.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "awesome-typescript-loader": "^5.2.1",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.9.0",
+    "source-map-loader": "^1.0.0",
+    "ts-jest": "^24.0.2",
+    "ts-loader": "^4.0.1",
+    "typescript": "^3.4.2",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  },
+  "scripts": {
+    "build": "tsc && webpack app/app.js -o app/app.bundle.js --mode=production",
+    "build:dev": "tsc && webpack app/app.js -o app/app.bundle.js --mode=development",
+    "watch": "npm run watch:ts",
+    "watch:ts": "npm run build:dev -- --watch --diagnostics",
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sterdomi/gioca15.git"
+  },
+  "keywords": [
+    "scopa",
+    "quindici"
+  ],
+  "author": "Dominic Sterchi",
+  "license": "LGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/sterdomi/gioca15/issues"
+  },
+  "homepage": "https://github.com/sterdomi/gioca15#readme"
+}

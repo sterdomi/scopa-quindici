@@ -1,0 +1,292 @@
+<html>
+<head>
+    <title>Scopa Info</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+</head>
+<body>
+
+<script>
+    window.onload = function () {
+        EntryPoint.onInfoLoad();
+    };
+</script>
+<h1 id="title">scopa-quindici.com</h1>
+
+<section id="sec_de">
+      <h2>
+        Info
+      </h2>
+      <button onclick="EntryPoint.onHomeClick()" tooltip="Hauptseite"><img src="images/home.png"/></button>
+      <article id="about_de">
+        <header>
+          <p>
+            Über dieses Spiel
+          </p>
+        </header>
+        <p>
+          Scopa (vor allem Quindici) ist einfach das beste Kartenspiel aller Zeiten. Ich finde,
+          das hat eine eigene Webseite verdient. Eine ohne Playstore, Applestore, ohne Tracker,
+          Cookies, Werbung, usw... Es sollte auch nur einmal laden und danach im lokalen Speicher laufen.
+          Egal ob auf dem PC, Mac, iPhone, iPad oder Android, Chrome, Safari oder Firefox.
+          Ich hoffe ihr habt auch so viel Freude daran wie ich. Falls ihr mit mir in Kontakt treten wollt,
+          einfach auf diesen <a href="Email" rel="nofollow" onclick="this.href='mailto:' + 'info' + '&#x40;' + 'scopa-quindici.com'">Link</a> klicken.
+        </p>
+
+        <article id="scopa_de">
+            <header>
+                <p>
+                    Regeln
+                </p>
+            </header>
+         <p>
+         Es hat vierzig Karten vom Wert 1(Ass) bis 10(König). Jeweils zehn Denari, Bastoni, Coppe und Spade
+         (<a href="#scopa-cards">siehe hier</a>). Der Spieler und der Computer bekommen drei Karten.
+         Vier weitere Karten werden offen auf den Tisch gelegt.</p>
+         <p>
+             <i><b>Spezialfall Scopa Quindici</b>:Wenn zu beginn genau 15 Punkte
+             auf dem Tisch liegen, bekommt der, der beginnt einen Extrapunkt (Scopa), bei 30 Punkte sogar deren zwei (doppelte Scopa).</i>
+         </p>
+         <p>
+         Haben der Spieler und der Computer ihre drei Karten ausgespielt,
+         bekommen sie drei Neue vom Stapel. Wenn keine Karten mehr zum Austeilen vorhanden sind, werden die erreichten
+         Punkte zusammengezählt. Je nach Punktestand gibt es dann einen Gewinner, oder es wird neu verteilt und in umgekehrter
+         Reihenfolge gespielt (in der zweiten Runde beginnt der Computer).
+         Der Spieler, der an der Reihe ist, versucht mit einer Karte aus seiner Hand, eine oder mehrere Karten vom Tisch
+         zu nehmen.</p>
+         <p>
+            <i>Bei <b>Scopa Quindici:</b> Die Karten, die er vom Tisch nimmt, müssen zusammen mit der ausgespielten Karte,
+            15 Punkte ergeben.</i>
+         </p>
+         <p>
+            <i>Bei <b>Scopa</b> müssen die Karten zusammen genauso viele Punkte ergeben, wie die eine Karte aus seiner
+            Hand. Liegt eine Karte mit demselben Wert am Tisch wie seine gewählte Karte aus der Hand, so muss er diese
+            nehmen.</i>
+         </p>
+         <p>
+         Kann er mit keiner seiner Karten andere Karten nehmen, so muss er eine Karte offen am Tisch ablegen.
+         Kann man mit seiner Karte alle Tischkarten auf einmal nehmen, so zählt das als „Scopa“.
+         Man bekommt dafür einen extra Punkt. Es sollte immer versucht werden so zu spielen, dass der Gegner das möglichst
+         nicht schaffen kann.
+         Eine Runde ist zu Ende, sobald alle Spieler keine Karten mehr in der Hand haben und es auch keine Karten mehr zum
+         Ausgeben gibt. Der Spieler der zuletzt Karten genommen hat, bekommt die verbliebenen Karten vom Tisch.
+         Für dieses Abräumen erhält man aber keinen Scopa-Punkt. Eine Partie ist vorbei, sobald ein Spieler am Ende einer Runde
+         15 oder mehr Punkte erreicht hat. Dieser Spieler hat somit auch gewonnen. Erreichen beide Spieler gleichzeitig
+         denselben Punktestand, werden weitere Runden gespielt bis ein einzelner Spieler eindeutig gewonnen hat.
+         </p>
+          <header>
+              <p>
+                Punkte
+             </p>
+         </header>
+         <p>
+         Der Spieler mit den meisten Karten bekommt einen Punkt (wenn kein zweiter Spieler genauso viele Karten hat).
+         Der Spieler mit den meisten Denari-Karten bekommt einen Punkt (wenn kein zweiter Spieler genauso viele Denari-Karten hat).
+         Der Spieler, der die Denari-Sieben-Karte (Sette Bello) hat, bekommt einen Punkt. Der Spieler mit den besten Primiera
+         Karten bekommt einen Punkt. <b>Die „Primiera“ Karten</b>: Die jeweils höchste Nummernkarte (7,6,5,4,3,2,1)
+         von Denari, Coppe, Bastoni und Spade werden zusammengezählt. Wer hierbei die höchsten Summe erhält bekommt hierfür
+         einen Punkt (wenn bei keinem zweiten Spieler der gleiche Wert errechnet wurde).
+         </p>
+         <header>
+            <p>
+              Tipps
+           </p>
+         </header>
+         <p>
+            <li>Möglichst 21 Karten sammeln (von 40)</li>
+            <li>Viele 7er und 6er Karten sammeln (Um die Primeria zu gewinnen)</li>
+            <li>möglichst sechs Denari-Karten sammeln (von 10)</li>
+            <li>Bei Scopa Quindici: möglichst oft Scopa machen und schauen, dass für den Gegner weniger als 5 oder mehr
+            als 15 Punkte auf dem Tisch liegen.</li>
+            <li>Bei Scopa : möglichst oft Scopa machen und schauen, dass für den Gegner mehr
+                        als 10 Punkte auf dem Tisch liegen.</li>
+         </p>
+         <header>
+             <p>
+                Zur Benutzeroberfläche
+           </p>
+         </header>
+         <p>
+         Falls man nicht gesehen hat, welches Blatt der Computer gestochen hat, kann man den Zurück-Knopf in der
+         Mitte (neben der Bombe) klicken. Es wird einem dann für 5 Sekunden den Zug des Computers nochmals angezeigt.
+         Mit der Bombe kann man seinen Frust herauslassen, der Computer macht das manchmal auch. Ganz links kann man die
+         Musik ab- und anstellen. Mir Refresh F5 verliert man den Spielstand und startet komplett neu. Auf der
+         Hauptseite kann man die Karten (Napoletane oder Trevisane) auswählen. Sowie auch ein normales Scopa spielen und die
+         Sprache wählen. Das Programm hilft einem nach 5 Sekunden und macht einen Vorschlag für einen Zug, in dem die Karten
+         kurz blinken. Falls nichts blinkt, kann man nichts nehmen und spielt einfach irgendeine Karte. Der Computer wartet
+         mit seinem Zug, falls es eine Möglichkeit für den Spieler zum Stechen gibt. Falls man mit einem mobilen Gerät spielt,
+         muss man das Gerät quer halten. Ansonsten wird einem eine Grafik angezeigt, in der signalisiert wird das Gerät zu
+         drehen. Am Schluss muss man nochmals klicken, bevor die Abrechnung erscheint.
+        </p>
+        </article>
+</section>
+<div id="scopa-cards"></div>
+<section id="trevisane">
+<header>
+  <p>
+     <button onclick="EntryPoint.onNapoletaneClick()">Trevisane</button>
+     <button onclick="EntryPoint.onTrevisaneClick()" class="unfocused">Napoletane</button>
+ </p>
+</header>
+<div>
+<table>
+  <tr>
+    <th>#</th>
+    <th>Denari</th>
+    <th>Coppe</th>
+    <th>Bastoni</th>
+    <th>Spade</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td><img src="images/treviso/geld1.jpg" width="20%"></td>
+    <td><img src="images/treviso/pokal1.jpg" width="20%"></td>
+    <td><img src="images/treviso/stab1.jpg" width="20%"></td>
+    <td><img src="images/treviso/schwert1.jpg" width="20%"></td>
+  </tr>
+    <td>2</td>
+    <td><img src="images/treviso/geld2.jpg" width="20%"></td>
+    <td><img src="images/treviso/pokal2.jpg" width="20%"></td>
+    <td><img src="images/treviso/stab2.jpg" width="20%"></td>
+    <td><img src="images/treviso/schwert2.jpg" width="20%"></td>
+  </tr>
+    <td>3</td>
+    <td><img src="images/treviso/geld3.jpg" width="20%"></td>
+    <td><img src="images/treviso/pokal3.jpg" width="20%"></td>
+    <td><img src="images/treviso/stab3.jpg" width="20%"></td>
+    <td><img src="images/treviso/schwert3.jpg" width="20%"></td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td><img src="images/treviso/geld4.jpg" width="20%"></td>
+    <td><img src="images/treviso/pokal4.jpg" width="20%"></td>
+    <td><img src="images/treviso/stab4.jpg" width="20%"></td>
+    <td><img src="images/treviso/schwert4.jpg" width="20%"></td>
+  </tr>
+    <td>5</td>
+    <td><img src="images/treviso/geld5.jpg" width="20%"></td>
+    <td><img src="images/treviso/pokal5.jpg" width="20%"></td>
+    <td><img src="images/treviso/stab5.jpg" width="20%"></td>
+    <td><img src="images/treviso/schwert5.jpg" width="20%"></td>
+  </tr>
+    <td>6</td>
+    <td><img src="images/treviso/geld6.jpg" width="20%"></td>
+    <td><img src="images/treviso/pokal6.jpg" width="20%"></td>
+    <td><img src="images/treviso/stab6.jpg" width="20%"></td>
+    <td><img src="images/treviso/schwert6.jpg" width="20%"></td>
+  </tr>
+  </tr>
+    <td>7</td>
+    <td><img src="images/treviso/geld7.jpg" width="20%"></td>
+    <td><img src="images/treviso/pokal7.jpg" width="20%"></td>
+    <td><img src="images/treviso/stab7.jpg" width="20%"></td>
+    <td><img src="images/treviso/schwert7.jpg" width="20%"></td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td><img src="images/treviso/geld8.jpg" width="20%"></td>
+    <td><img src="images/treviso/pokal8.jpg" width="20%"></td>
+    <td><img src="images/treviso/stab8.jpg" width="20%"></td>
+    <td><img src="images/treviso/schwert8.jpg" width="20%"></td>
+  </tr>
+    <td>9</td>
+    <td><img src="images/treviso/geld9.jpg" width="20%"></td>
+    <td><img src="images/treviso/pokal9.jpg" width="20%"></td>
+    <td><img src="images/treviso/stab9.jpg" width="20%"></td>
+    <td><img src="images/treviso/schwert9.jpg" width="20%"></td>
+  </tr>
+    <td>10</td>
+    <td><img src="images/treviso/geld10.jpg" width="20%"></td>
+    <td><img src="images/treviso/pokal10.jpg" width="20%"></td>
+    <td><img src="images/treviso/stab10.jpg" width="20%"></td>
+    <td><img src="images/treviso/schwert10.jpg" width="20%"></td>
+  </tr>
+</table>
+</div>
+</section>
+<section id="napoletane">
+<header>
+  <p>
+    <button onclick="EntryPoint.onTrevisaneClick()">Napoletane</button>
+    <button onclick="EntryPoint.onNapoletaneClick()" class="unfocused">Trevisane</button>
+ </p>
+</header>
+<table>
+  <tr>
+    <th>#</th>
+    <th>Denari</th>
+    <th>Coppe</th>
+    <th>Bastoni</th>
+    <th>Spade</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td><img src="images/napoletane/geld1.jpg" width="20%"></td>
+    <td><img src="images/napoletane/pokal1.jpg" width="20%"></td>
+    <td><img src="images/napoletane/stab1.jpg" width="20%"></td>
+    <td><img src="images/napoletane/schwert1.jpg" width="20%"></td>
+  </tr>
+    <td>2</td>
+    <td><img src="images/napoletane/geld2.jpg" width="20%"></td>
+    <td><img src="images/napoletane/pokal2.jpg" width="20%"></td>
+    <td><img src="images/napoletane/stab2.jpg" width="20%"></td>
+    <td><img src="images/napoletane/schwert2.jpg" width="20%"></td>
+  </tr>
+    <td>3</td>
+    <td><img src="images/napoletane/geld3.jpg" width="20%"></td>
+    <td><img src="images/napoletane/pokal3.jpg" width="20%"></td>
+    <td><img src="images/napoletane/stab3.jpg" width="20%"></td>
+    <td><img src="images/napoletane/schwert3.jpg" width="20%"></td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td><img src="images/napoletane/geld4.jpg" width="20%"></td>
+    <td><img src="images/napoletane/pokal4.jpg" width="20%"></td>
+    <td><img src="images/napoletane/stab4.jpg" width="20%"></td>
+    <td><img src="images/napoletane/schwert4.jpg" width="20%"></td>
+  </tr>
+    <td>5</td>
+    <td><img src="images/napoletane/geld5.jpg" width="20%"></td>
+    <td><img src="images/napoletane/pokal5.jpg" width="20%"></td>
+    <td><img src="images/napoletane/stab5.jpg" width="20%"></td>
+    <td><img src="images/napoletane/schwert5.jpg" width="20%"></td>
+  </tr>
+    <td>6</td>
+    <td><img src="images/napoletane/geld6.jpg" width="20%"></td>
+    <td><img src="images/napoletane/pokal6.jpg" width="20%"></td>
+    <td><img src="images/napoletane/stab6.jpg" width="20%"></td>
+    <td><img src="images/napoletane/schwert6.jpg" width="20%"></td>
+  </tr>
+  </tr>
+    <td>7</td>
+    <td><img src="images/napoletane/geld7.jpg" width="20%"></td>
+    <td><img src="images/napoletane/pokal7.jpg" width="20%"></td>
+    <td><img src="images/napoletane/stab7.jpg" width="20%"></td>
+    <td><img src="images/napoletane/schwert7.jpg" width="20%"></td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td><img src="images/napoletane/geld8.jpg" width="20%"></td>
+    <td><img src="images/napoletane/pokal8.jpg" width="20%"></td>
+    <td><img src="images/napoletane/stab8.jpg" width="20%"></td>
+    <td><img src="images/napoletane/schwert8.jpg" width="20%"></td>
+  </tr>
+    <td>9</td>
+    <td><img src="images/napoletane/geld9.jpg" width="20%"></td>
+    <td><img src="images/napoletane/pokal9.jpg" width="20%"></td>
+    <td><img src="images/napoletane/stab9.jpg" width="20%"></td>
+    <td><img src="images/napoletane/schwert9.jpg" width="20%"></td>
+  </tr>
+    <td>10</td>
+    <td><img src="images/napoletane/geld10.jpg" width="20%"></td>
+    <td><img src="images/napoletane/pokal10.jpg" width="20%"></td>
+    <td><img src="images/napoletane/stab10.jpg" width="20%"></td>
+    <td><img src="images/napoletane/schwert10.jpg" width="20%"></td>
+  </tr>
+</table>
+</section>
+<footer>
+    <button onclick="EntryPoint.onHomeClick()"><img src="images/home.png"/></button>
+</footer>
+</body>
+</html>

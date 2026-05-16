@@ -1,0 +1,159 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1400">
+    <meta http-equiv="Cache-Control" content="public" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Gioca a Scopa Quindici online">
+    <meta name="keywords" content="Scopa, Quindici, webapp, gioco di carte, napoletane">
+    <title>Scopa Quindici</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="images/treviso/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/treviso/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/treviso/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/treviso/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/treviso/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/treviso/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/treviso/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/treviso/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/treviso/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="images/treviso/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/treviso/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/treviso/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/treviso/favicon-16x16.png">
+    <link rel="manifest" href="images/treviso/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/treviso/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="Gioca a Quindici Scopa online">
+    <meta name="keywords" content="Scopa, Quindici, webapp, gioco di carte, napoletane">
+    <meta name="author" content="nic@lorien.ch">
+    <!-- 31536000 is a year -->
+    <meta http-equiv="Cache-control" content="private">
+    <meta http-equiv="cache-control" content="max-age=604800">
+    <style type="text/css">
+          body{
+                background-image: url('images/table.jpg');
+            }
+            canvas {
+                    height: 100vh;
+                    width: 100vw;
+                    display:block;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    image-rendering: optimizeQuality;
+                    image-rendering: -moz-crisp-edges;
+                    image-rendering: -webkit-optimize-contrast;
+                    image-rendering: optimize-contrast;
+                    -ms-interpolation-mode: nearest-neighbor;
+                  }
+        #warning-message {
+            display: none;
+             position: relative;
+             height: 100%;
+             background: url(images/turn_device.png) center center;
+             background-repeat: no-repeat;
+             background-attachment: fixed;
+             -webkit-background-size: cover;
+             -moz-background-size: cover;
+             background-size: cover;
+             color: #fff;
+        }
+        @media only screen and (orientation:portrait){
+            #cnvs { display:none; }
+            #warning-message { display:block; }
+        }
+        @media only screen and (orientation:landscape){
+            #warning-message {
+                display:none;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+<script>
+    window.onload = function () {
+        EntryPoint.onLoad();
+    };
+</script>
+
+
+<canvas id="cnvs">
+    <img src="images/napoletane/geld1.jpg" id="geld1">
+    <img src="images/napoletane/geld2.jpg" id="geld2">
+    <img src="images/napoletane/geld3.jpg" id="geld3">
+    <img src="images/napoletane/geld4.jpg" id="geld4">
+    <img src="images/napoletane/geld5.jpg" id="geld5">
+    <img src="images/napoletane/geld6.jpg" id="geld6">
+    <img src="images/napoletane/geld7.jpg" id="geld7">
+    <img src="images/napoletane/geld8.jpg" id="geld8">
+    <img src="images/napoletane/geld9.jpg" id="geld9">
+    <img src="images/napoletane/geld10.jpg" id="geld10">
+
+    <img src="images/napoletane/pokal1.jpg" id="pokal1">
+    <img src="images/napoletane/pokal2.jpg" id="pokal2">
+    <img src="images/napoletane/pokal3.jpg" id="pokal3">
+    <img src="images/napoletane/pokal4.jpg" id="pokal4">
+    <img src="images/napoletane/pokal5.jpg" id="pokal5">
+    <img src="images/napoletane/pokal6.jpg" id="pokal6">
+    <img src="images/napoletane/pokal7.jpg" id="pokal7">
+    <img src="images/napoletane/pokal8.jpg" id="pokal8">
+    <img src="images/napoletane/pokal9.jpg" id="pokal9">
+    <img src="images/napoletane/pokal10.jpg" id="pokal10">
+
+    <img src="images/napoletane/schwert1.jpg" id="schwert1">
+    <img src="images/napoletane/schwert2.jpg" id="schwert2">
+    <img src="images/napoletane/schwert3.jpg" id="schwert3">
+    <img src="images/napoletane/schwert4.jpg" id="schwert4">
+    <img src="images/napoletane/schwert5.jpg" id="schwert5">
+    <img src="images/napoletane/schwert6.jpg" id="schwert6">
+    <img src="images/napoletane/schwert7.jpg" id="schwert7">
+    <img src="images/napoletane/schwert8.jpg" id="schwert8">
+    <img src="images/napoletane/schwert9.jpg" id="schwert9">
+    <img src="images/napoletane/schwert10.jpg" id="schwert10">
+
+    <img src="images/napoletane/stab1.jpg" id="stab1">
+    <img src="images/napoletane/stab2.jpg" id="stab2">
+    <img src="images/napoletane/stab3.jpg" id="stab3">
+    <img src="images/napoletane/stab4.jpg" id="stab4">
+    <img src="images/napoletane/stab5.jpg" id="stab5">
+    <img src="images/napoletane/stab6.jpg" id="stab6">
+    <img src="images/napoletane/stab7.jpg" id="stab7">
+    <img src="images/napoletane/stab8.jpg" id="stab8">
+    <img src="images/napoletane/stab9.jpg" id="stab9">
+    <img src="images/napoletane/stab10.jpg" id="stab10">
+
+    <img src="images/napoletane/hinten.svg" id="hinten">
+    <img src="images/intro_napoletane.png" id="intro">
+    <img src="images/start_napoletane_blue.png" id="intro2">
+    <img src="images/table.jpg" id="table">
+    <img src="images/scopa.png" id="scopa">
+    <img src="images/scopa2.png" id="scopa2">
+    <img src="images/bomb.png" id="bomb">
+    <img src="images/bomb_m.png" id="bomb_m">
+    <img src="images/bomb.png" id="bomb_dis">
+    <img src="images/boom.png" id="boom">
+    <img src="images/sound_on.png" id="sound_on">
+    <img src="images/sound_off.png" id="sound_off">
+    <img src="images/turn_device.png" id="skull_cross_bones">
+    <img src="images/back.png" id="back">
+    <img src="images/back_dis.png" id="back_dis">
+    <img src="images/intro_white.png" id="other_intro">
+    <img src="images/home.png" id="home">
+    <audio id="trinity" src="music/song.mp3">
+    </audio>
+    <audio id="slap" src="music/slap.mp3" >
+    </audio>
+    <audio id="scopasound" src="music/scopa.mp3">
+    </audio>
+    <audio id="bombsound" src="music/bomb.mp3">
+    </audio>
+    <audio id="ring" src="music/ring.mp3">
+    </audio>
+</canvas>
+<div id="warning-message">
+</div>
+</body>
+</html>

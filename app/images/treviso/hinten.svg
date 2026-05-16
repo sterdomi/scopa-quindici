@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="590" height="1207" viewBox="0 0 590 1207">
+  <defs>
+    <pattern id="diamond-grid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M20 0 L40 20 L20 40 L0 20 Z" fill="none" stroke="#c8960c" stroke-width="1.6" opacity="0.35"/>
+    </pattern>
+    <pattern id="dot" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="1.2" fill="#c8960c" opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <rect width="590" height="1207" rx="20" fill="#555555"/>
+  <rect width="590" height="1207" rx="20" fill="url(#diamond-grid)"/>
+  <rect width="590" height="1207" rx="20" fill="url(#dot)"/>
+
+  <rect x="14" y="14" width="562" height="1179" rx="14" fill="none" stroke="#c8960c" stroke-width="4"/>
+  <rect x="26" y="26" width="538" height="1155" rx="10" fill="none" stroke="#c8960c" stroke-width="1.4" opacity="0.6"/>
+
+  <rect x="155" y="116" width="280" height="26" rx="4" fill="#4a4a4a" stroke="#c8960c" stroke-width="1.8"/>
+  <text x="295" y="134" text-anchor="middle" font-family="serif" font-size="13" fill="#c8960c" font-style="italic">&#9830; Trevisane &#9830;</text>
+
+  <rect x="155" y="1065" width="280" height="26" rx="4" fill="#4a4a4a" stroke="#c8960c" stroke-width="1.8"/>
+  <text x="295" y="1083" text-anchor="middle" font-family="serif" font-size="13" fill="#c8960c" font-style="italic">&#9830; Trevisane &#9830;</text>
+
+  <g transform="translate(62,62)" stroke="#c8960c" fill="none">
+    <circle cx="0" cy="0" r="18" stroke-width="2.4"/>
+    <circle cx="0" cy="0" r="9" fill="#c8960c" opacity="0.45"/>
+    <line x1="-26" y1="0" x2="26" y2="0" stroke-width="1.6"/>
+    <line x1="0" y1="-26" x2="0" y2="26" stroke-width="1.6"/>
+    <circle cx="-26" cy="0" r="3" fill="#c8960c" opacity="0.65"/>
+    <circle cx="26" cy="0" r="3" fill="#c8960c" opacity="0.65"/>
+    <circle cx="0" cy="-26" r="3" fill="#c8960c" opacity="0.65"/>
+    <circle cx="0" cy="26" r="3" fill="#c8960c" opacity="0.65"/>
+  </g>
+  <g transform="translate(528,62)" stroke="#c8960c" fill="none">
+    <circle cx="0" cy="0" r="18" stroke-width="2.4"/>
+    <circle cx="0" cy="0" r="9" fill="#c8960c" opacity="0.45"/>
+    <line x1="-26" y1="0" x2="26" y2="0" stroke-width="1.6"/>
+    <line x1="0" y1="-26" x2="0" y2="26" stroke-width="1.6"/>
+    <circle cx="-26" cy="0" r="3" fill="#c8960c" opacity="0.65"/>
+    <circle cx="26" cy="0" r="3" fill="#c8960c" opacity="0.65"/>
+    <circle cx="0" cy="-26" r="3" fill="#c8960c" opacity="0.65"/>
+    <circle cx="0" cy="26" r="3" fill="#c8960c" opacity="0.65"/>
+  </g>
+  <g transform="translate(62,1145)" stroke="#c8960c" fill="none">
+    <circle cx="0" cy="0" r="18" stroke-width="2.4"/>
+    <circle cx="0" cy="0" r="9" fill="#c8960c" opacity="0.45"/>
+    <line x1="-26" y1="0" x2="26" y2="0" stroke-width="1.6"/>
+    <line x1="0" y1="-26" x2="0" y2="26" stroke-width="1.6"/>
+    <circle cx="-26" cy="0" r="3" fill="#c8960c" opacity="0.65"/>
+    <circle cx="26" cy="0" r="3" fill="#c8960c" opacity="0.65"/>
+    <circle cx="0" cy="-26" r="3" fill="#c8960c" opacity="0.65"/>
+    <circle cx="0" cy="26" r="3" fill="#c8960c" opacity="0.65"/>
+  </g>
+  <g transform="translate(528,1145)" stroke="#c8960c" fill="none">
+    <circle cx="0" cy="0" r="18" stroke-width="2.4"/>
+    <circle cx="0" cy="0" r="9" fill="#c8960c" opacity="0.45"/>
+    <line x1="-26" y1="0" x2="26" y2="0" stroke-width="1.6"/>
+    <line x1="0" y1="-26" x2="0" y2="26" stroke-width="1.6"/>
+    <circle cx="-26" cy="0" r="3" fill="#c8960c" opacity="0.65"/>
+    <circle cx="26" cy="0" r="3" fill="#c8960c" opacity="0.65"/>
+    <circle cx="0" cy="-26" r="3" fill="#c8960c" opacity="0.65"/>
+    <circle cx="0" cy="26" r="3" fill="#c8960c" opacity="0.65"/>
+  </g>
+
+  <g stroke="#c8960c" stroke-width="1.6" opacity="0.55">
+    <line x1="62" y1="340" x2="245" y2="340"/>
+    <line x1="345" y1="340" x2="528" y2="340"/>
+    <line x1="62" y1="867" x2="245" y2="867"/>
+    <line x1="345" y1="867" x2="528" y2="867"/>
+  </g>
+  <g fill="#c8960c" opacity="0.65">
+    <path d="M245,340 L255,331 L265,340 L255,349 Z"/>
+    <path d="M325,340 L335,331 L345,340 L335,349 Z"/>
+    <path d="M245,867 L255,858 L265,867 L255,876 Z"/>
+    <path d="M325,867 L335,858 L345,867 L335,876 Z"/>
+  </g>
+
+  <circle cx="295" cy="603" r="140" fill="#484848" stroke="#c8960c" stroke-width="3"/>
+  <circle cx="295" cy="603" r="118" fill="none" stroke="#c8960c" stroke-width="1.4" opacity="0.5"/>
+  <g stroke="#c8960c" stroke-width="1.4" opacity="0.45">
+    <line x1="295" y1="465" x2="295" y2="488"/>
+    <line x1="295" y1="718" x2="295" y2="741"/>
+    <line x1="157" y1="603" x2="180" y2="603"/>
+    <line x1="410" y1="603" x2="433" y2="603"/>
+    <line x1="200" y1="468" x2="214" y2="491"/>
+    <line x1="376" y1="715" x2="390" y2="738"/>
+    <line x1="200" y1="738" x2="214" y2="715"/>
+    <line x1="376" y1="491" x2="390" y2="468"/>
+  </g>
+  <g transform="translate(295,603)">
+    <path d="M0,-78 L14,-28 L58,-58 L28,-14 L78,0 L28,14 L58,58 L14,28 L0,78 L-14,28 L-58,58 L-28,14 L-78,0 L-28,-14 L-58,-58 L-14,-28 Z" fill="#c8960c" opacity="0.1"/>
+    <path d="M0,-54 L10,-19 L40,-40 L19,-10 L54,0 L19,10 L40,40 L10,19 L0,54 L-10,19 L-40,40 L-19,10 L-54,0 L-19,-10 L-40,-40 L-10,-19 Z" fill="none" stroke="#c8960c" stroke-width="2" opacity="0.5"/>
+    <circle cx="0" cy="0" r="24" fill="#555555" stroke="#c8960c" stroke-width="2.4"/>
+    <circle cx="0" cy="0" r="11" fill="#c8960c" opacity="0.75"/>
+    <circle cx="0" cy="-17" r="5.5" fill="#c8960c" opacity="0.55"/>
+    <circle cx="0" cy="17" r="5.5" fill="#c8960c" opacity="0.55"/>
+    <circle cx="-17" cy="0" r="5.5" fill="#c8960c" opacity="0.55"/>
+    <circle cx="17" cy="0" r="5.5" fill="#c8960c" opacity="0.55"/>
+  </g>
+</svg>
